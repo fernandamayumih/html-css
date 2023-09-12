@@ -1,0 +1,16 @@
+height - altura
+width - largura
+content - conteúdo
+
+hover - é quando eu passo o mouse por cima
+visited - é quando a página já foi visitada
+active - é quando está ativo, qdo clica
+after - depois (o que vem depois)
+
+user agent - é sempre seu navegador que está exibindo
+
+auto - sempre que eu quero centralizar uma caixa
+
+shorthand - simplificar código
+
+wireframe - estrutura de um site

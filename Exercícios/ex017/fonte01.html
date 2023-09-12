@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas:
+            cm, mm, in (polegada), px, pt (ponto), pc (paica)
+
+            Medidas Relativas:
+            em, ex, rem, vw, vh, % 
+
+            16px geralmente é igual a 1em
+
+            Recomendação oficial:
+            Usar px e em
+
+            weight - peso
+            width - altura
+            height - largura
+
+            Variações de peso:
+            lighter, normal, bold, bolder
+            Também temos variações numéricas de 100 à 900, de 100 em 100 (ex: 100, 200, 300, 400...)
+
+            font-size (Negrito)
+            font-style (Itálico)
+            text=decoration (Sublinhado)
+            */
+        }
+
+        h1 {
+            font-family: 'work Sens', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+
+            /*
+            shorthand font ("mãozinha" para simplificar o código para fonte)
+
+            Ordem para simplificar o código:
+            - font-style, font-weight, font-size, font-family
+
+            Exemplo: 
+            font-family: 'work Sens', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic; 
+
+            Seria o mesmo que colocar:
+            font: italic bolder 3em 'work Sans', sans-serif;
+            */
+        }
+        
+        h2 {
+            font: bold 2em 'work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, tempore inventore. Recusandae vel quo facere maxime architecto ducimus neque molestias dolorem blanditiis voluptas illo, accusantium eius rem, nam tempore aliquid! Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nulla blanditiis sit, voluptates harum aperiam molestias! Facere facilis id quia aperiam corporis temporibus suscipit optio, sit, in nisi similique reiciendis!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit perspiciatis nam quae hic. Doloremque odio, quod esse reiciendis odit adipisci. Corrupti nostrum nihil voluptas illo quia blanditiis magni, fugiat culpa?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dignissimos qui labore aut tenetur, totam ducimus cumque deleniti tempore iure pariatur perspiciatis minima, quisquam veniam iusto tempora? Aperiam, corporis illum.</p>
+</body>
+</html>

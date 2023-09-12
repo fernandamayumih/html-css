@@ -1,0 +1,10 @@
+Descobrir fonte: 
+Usar a extensão Fonts Ninja para texto
+
+E para imagens com fonte, usar os sites:
+https://www.whatfontis.com/
+https://www.fontsquirrel.com/
+https://www.myfonts.com/
+
+Site para planejar a estrutura de um site:
+https://mockflow.com/

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bordas personalizadas</title>
+    <style>
+        h1 {
+            border: 20px solid transparent;
+            padding: 10px;
+
+            border-image-source: url('#');
+            border-image-slice: 20;
+            border-image-repeat: repeat;
+
+            /* 
+            SHORTHAND DO CÓDIGO ACIMA:
+            border-image: url('#') 27 repeat;
+             */
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de borda</h1>
+    <p>Esse teste não está funcionando porque eu não coloquei imagem :P</p>
+</body>
+</html>
