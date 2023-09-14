@@ -1,8 +1,0 @@
-ctrl shift p 
-Selecionar código para envelopar
-
-ctrl shift n 
-abrir outra página
-
-ctrl shift i 
-inspecionar código

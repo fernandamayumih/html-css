@@ -1,9 +1,0 @@
-text-indent;  			parágrafo
-line-height;  			espaço entre as linhas de cima e baixo
-font-weight;  			peso da fonte
-list-style-position;		posição da lista
-list-style-position: inside;	posição da lista para o lado de dentro (normalmente as bolinhas ficam para fora
-columns;			quantidade de colunas numa lista
-list-style-type;		personalizar estilo da lista (trocar os simbolos de bolinha, disco, quadrado de cada linha...) EX: list-style-type: '\2714\00A0\00A0'; ("2714" é o código do 				emoji de um check e "00A0" é o código do espaço. (LEMBRANDO que esse código não é compatível com todo navegador)
-
-
