@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;
@@ -12,11 +12,25 @@
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+
+            /* 
+            Shorthand - background
+            color > image > position > repeat > [size] > attachment
+
+            Ex da SHORTHAND do código acima:
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat cover fixed;
+
+            As vezes a background-size pode não funcionar na SHORTHAND, e será necessário coloca-la separada da shorthand
+            EX: 
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
+            */
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -27,6 +41,10 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem accusamus dolore cum quis aspernatur asperiores explicabo iure. Quod, accusamus doloribus corporis, ipsum dolores labore nisi maxime neque, ullam blanditiis eos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem accusamus dolore cum quis aspernatur asperiores explicabo iure. Quod, accusamus doloribus corporis, ipsum dolores labore nisi maxime neque, ullam blanditiis eos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem accusamus dolore cum quis aspernatur asperiores explicabo iure. Quod, accusamus doloribus corporis, ipsum dolores labore nisi maxime neque, ullam blanditiis eos? </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem accusamus dolore cum quis aspernatur asperiores explicabo iure. Quod, accusamus doloribus corporis, ipsum dolores labore nisi maxime neque, ullam blanditiis eos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem accusamus dolore cum quis aspernatur asperiores explicabo iure. Quod, accusamus doloribus corporis, ipsum dolores labore nisi maxime neque, ullam blanditiis eos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem accusamus dolore cum quis aspernatur asperiores explicabo iure. Quod, accusamus doloribus corporis, ipsum dolores labore nisi maxime neque, ullam blanditiis eos? </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem accusamus dolore cum quis aspernatur asperiores explicabo iure. Quod, accusamus doloribus corporis, ipsum dolores labore nisi maxime neque, ullam blanditiis eos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem accusamus dolore cum quis aspernatur asperiores explicabo iure. Quod, accusamus doloribus corporis, ipsum dolores labore nisi maxime neque, ullam blanditiis eos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem accusamus dolore cum quis aspernatur asperiores explicabo iure. Quod, accusamus doloribus corporis, ipsum dolores labore nisi maxime neque, ullam blanditiis eos? </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem accusamus dolore cum quis aspernatur asperiores explicabo iure. Quod, accusamus doloribus corporis, ipsum dolores labore nisi maxime neque, ullam blanditiis eos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem accusamus dolore cum quis aspernatur asperiores explicabo iure. Quod, accusamus doloribus corporis, ipsum dolores labore nisi maxime neque, ullam blanditiis eos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem accusamus dolore cum quis aspernatur asperiores explicabo iure. Quod, accusamus doloribus corporis, ipsum dolores labore nisi maxime neque, ullam blanditiis eos? </p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem accusamus dolore cum quis aspernatur asperiores explicabo iure. Quod, accusamus doloribus corporis, ipsum dolores labore nisi maxime neque, ullam blanditiis eos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem accusamus dolore cum quis aspernatur asperiores explicabo iure. Quod, accusamus doloribus corporis, ipsum dolores labore nisi maxime neque, ullam blanditiis eos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem accusamus dolore cum quis aspernatur asperiores explicabo iure. Quod, accusamus doloribus corporis, ipsum dolores labore nisi maxime neque, ullam blanditiis eos? </p>
     </main>
 </body>
